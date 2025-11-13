@@ -166,13 +166,6 @@ Hay tests de unidad para la capa de servicios (`src/test/java/.../CurrencyConver
 2. Crea una rama `feature/...` o `fix/...` y envía un PR.  
 3. Añade tests si cambias la lógica de negocio.
 
-## Licencia
-
-Indica aquí la licencia que quieras aplicar (por ejemplo MIT o Apache-2.0). Si deseas, puedo añadir `LICENSE` con MIT.
-
----
-
-Si quieres, puedo hacer pasos adicionales ahora:
 
 - Añadir un `config.example` y mover la clave real fuera del repo (actualizar `ExchangeRateApiAdapter` para documentar la carga de la clave).  
 - Añadir instrucciones concretas para ejecutar la GUI dentro de Docker usando X11/VNC (macOS).  
