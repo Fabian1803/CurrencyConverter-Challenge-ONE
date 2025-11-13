@@ -1,5 +1,2 @@
 package org.example.domain.services;
-
-public class CurrencyConversionServiceTest {
-
-}
+public class CurrencyConversionServiceTest { }

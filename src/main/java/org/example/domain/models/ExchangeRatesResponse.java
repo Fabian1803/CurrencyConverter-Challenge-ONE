@@ -1,4 +1,8 @@
 package org.example.domain.models;
-
-public class ExchangeRatesResponse {
+import java.util.Map;
+public record ExchangeRatesResponse(
+        String result,
+        String base_code,
+        Map<String, Double> conversion_rates
+) {
 }

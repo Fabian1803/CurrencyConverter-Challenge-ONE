@@ -1,4 +1,5 @@
 package org.example.domain.ports.out;
-
-public class IExchangeRateProvider {
+import org.example.domain.models.ExchangeRatesResponse;
+public interface IExchangeRateProvider {
+    ExchangeRatesResponse getRates(String baseCurrency);
 }
